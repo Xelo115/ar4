@@ -99,6 +99,7 @@ a:hover {
 }
 video{
     width: 50%;
+    z-index: 1;
 }
 .a2{
     width: 100%;
