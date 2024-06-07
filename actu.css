@@ -43,6 +43,7 @@ header p{
     background-color: #c4c1be;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 header p{
     justify-content: center;
