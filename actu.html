@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'atelier artistique</title>
+    <link rel="stylesheet" href="actu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <div id="div1">
+        <nav class="navLinks">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="prof.html">Disciplines et <br>Professeur</a></li>
+                    <li><a href="horaires.html">Horaires et <br>Tarifs</a></li>
+                    <li><a href="retrouver.html">Nous <br>Retrouver</a></li>
+                    <li><a href="contact.html">Nous <br>Contacter</a></li>
+                    <li><a href="actu.html">Actualités</a></li>
+                </ul>
+        </nav>
+        <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <article class="a1">
+        <div id="div3"><p id="b1">Actualités</p></div>
+        <div id="div2">
+            <p>
+                <span id="b3">Reprise des cours</span><br><br>
+                <span id="b4">Bonjour a tous.<br>
+                    Nous vous informons que les cours de danse reprenne à partir de ce 9 septembre<br>
+                    Pour savoir ou nous trouver, rendez-vous dans la section <a href="retrouver.html">Nous retrouver</a> ou vous trouverez toutes les informationsnécessaires.
+                </span>
+            </p>
+        </div>
+        <div id="div2">
+            <p>
+                <span id="b3">GALA du 1er et 2 Juin 2024</span><br><br>
+                <span id="b4">Bravo à tous nos danseurs et danseuses pour leur magnifique prestation lors de notre Gala ce week-end.<br>
+                    Merci à tous ceux qui se sont impliqués et ont aidé à la réalisation de ce spectacle.<br><br>
+                    Le gala avait pour thème les jeux vidéos voici la vidéo projeté à la fin du spectacle qui a permis de faire un juste Dance avec le public
+                </span>
+            </p>
+        </div>
+            </a><video controls><source src="Vidéo de fin de Gala 2024 ( Just Dance ).mp4"></video>
+    </article>
+    <article class="a2">
+        <div id="div4">
+            <p id="b4"><span id="b3">Decouverte de la Danse</span><br><br>
+                Envie de commencer ou reprendre la danse à la rentrée ?<br>
+                Profitez en c'est l occasion de tester dès maintenant !<br><br>
+                L Atelier Artistique situé dans Ville <a href="https://www.google.fr/maps/place/Anzin-Saint-Aubin/@50.3206209,2.6972367,13z/data=!3m1!4b1!4m6!3m5!1s0x47dd387978117885:0x40af13e816402b0!8m2!3d50.313409!4d2.746788!16s%2Fm%2F02x8123?entry=ttu" target="https://www.google.fr/maps/place/Anzin-Saint-Aubin/@50.3206209,2.6972367,13z/data=!3m1!4b1!4m6!3m5!1s0x47dd387978117885:0x40af13e816402b0!8m2!3d50.313409!4d2.746788!16s%2Fm%2F02x8123?entry=ttu">d'Anzin-Saint-Aubin</a> près d'Arras
+                organise des essais gratuits pour tous les âges et tous les niveaux pendant les 2 semaines à venir.<br><br>
+                N'hesitez plus et venez partager et découvrir le plaisir de la Danse avec nous !<br><br>
+                <span id="b3">Voici les horaires :</span> <br><br>
+                <span id="b3">Adultes débutants :</span> le 10 et 17 juin de 18h30 à 20h <br><br>
+                <span id="b3">Adultes modern Jazz :</span> le 10 et 17 juin de 20 h à 21h30 <br><br>
+                <span id="b3">Adultes contemporains :</span> le 20 juin de 19h à 20h30 <br><br>
+                <span id="b3">Éveil (4 à 6 ans):</span> le 12 et 19 juin de 15h à 15h45 <br><br>
+                <span id="b3">Initiation (6 à 8 ans):</span> le 12 et 19 juin de 14h à 15h <br><br>
+                <span id="b3">Intermédiaire (8 à 10 ans):</span> le 20 juin de 18h à 19h <br><br>
+                <span id="b3">Adolescents :</span> le 12 et 19 juin de 16h à 17h15 <br><br>
+                Les cours se déroulent dans la salle derrière la mediatheque d Anzin. <br><br>
+                N'hésitez pas à nous contacter si vous souhaitez plus d informations.</p>
+        </div>
+    </article>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".fa")
+    const navLinks = document.querySelector(".navLinks")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+<footer>
+    <div id="footer">    <div id="aae"><a href="https://www.aae62.fr/AssociationActionEducative/" target="https://www.aae62.fr/AssociationActionEducative/"><img src="Logo_AAE.webp" alt="logo aae"></a></div>
+    <div id="anz"><a href="http://ville-anzin-saint-aubin.fr/" target="http://ville-anzin-saint-aubin.fr/"><img src="Logo_Anzin.webp" alt="ville Anzin-st-Aubin"></a></div>
+</div>
+</footer>
+</html>
